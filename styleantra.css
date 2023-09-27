@@ -1,0 +1,16 @@
+body {
+  margin: 32px;
+}
+h2 {
+  color: green;
+}
+p {
+  text-align: center;
+  width: 350px;
+  word-break: column;
+  color: green;
+}
+p::first-line {
+  font-weight: bold;
+  color: red;
+}

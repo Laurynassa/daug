@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 15px;
+}
+p:first-child {
+  background-color: red;
+}
+h4:first-of-type {
+  font-weight: bold;
+  background-color: green;
+}
+p:nth-child(3) {
+  font-weight: 3px bold;
+}
+h2 {
+  color: green;
+  font-weight: bold;
+}

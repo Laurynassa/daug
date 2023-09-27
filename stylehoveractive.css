@@ -1,0 +1,23 @@
+aside {
+  width: 40%;
+  padding-left: 0.5rem;
+  margin-left: 0.5rem;
+  float: right;
+}
+h4 {
+  color: green;
+}
+p:hover {
+  background-color: yellow;
+}
+button:active {
+  background-color: aqua;
+}
+button {
+  height: 150px;
+  width: 140px;
+  color: black;
+}
+p {
+  width: 270px;
+}

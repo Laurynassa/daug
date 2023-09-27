@@ -1,0 +1,9 @@
+body {
+  margin: 15px;
+}
+h2 {
+  color: green;
+}
+a:visited {
+  color: red;
+}
