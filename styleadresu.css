@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  background-color: rgb(131, 131, 131);
+  padding: 15px;
+}
+body {
+  padding: 15px;
+}
+.main {
+  background-color: white;
+}
+label {
+  text-align: left;
+}

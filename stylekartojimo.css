@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.background {
+  background-color: transparent;
+  background-image: url(./cat.avif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+header {
+  text-align: center;
+  top: 20px;
+  position: sticky;
+}
+.bigbox {
+  float: left;
+  width: 450px;
+  height: 250px;
+  margin: 15px;
+  background-color: aquamarine;
+  position: relative;
+  padding: 10px;
+}
+.smallbox {
+  width: 150px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 10px;
+  position: relative;
+  top: 50px;
+  border: inset;
+  border-color: black;
+  background-color: red;
+}
+article {
+  text-align: center;
+  word-break: keep-all;
+}
+.par {
+  border: inset;
+  outline: outset 2px;
+  float: left;
+  width: 120px;
+  height: 90px;
+  margin: 14px;
+  background-color: aquamarine;
+  position: relative;
+  padding: 9px;
+}
+.chi {
+  width: 75px;
+  height: 50px;
+  margin: 14px;
+  padding: 10px;
+  border: outset;
+  background-color: red;
+  position: relative;
+  right: 27px;
+  top: 45px;
+}
+.pare {
+  border: inset;
+  border: 5px;
+}

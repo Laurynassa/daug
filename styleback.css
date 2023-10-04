@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.stalas {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(./office.png);
+  background-size: fixed;
+}
+div {
+  width: 600px;
+  height: 400px;
+}
+.vaisiai {
+  /* background-size: cover;
+  filter: blur(5px); */
+  background-repeat: no-repeat;
+  background-image: url(./vaisiai.jpg);
+  /* background-size: 50% 50%; */
+}
+h2 {
+  font-size: 32px;
+  text-align: center;
+  height: 400px;
+  width: 600px;
+  backdrop-filter: blur(2px);
+  opacity: 1;
+  position: absolute;
+  z-index: 1;
+  padding: 178px 0;
+}
+.kazkas {
+  background-image: url(./wasd.jpg);
+}
+h3 {
+  font-size: 32px;
+  text-align: center;
+  height: 0px;
+  width: 0px;
+  backdrop-filter: blur(2px);
+  position: absolute;
+  z-index: 1;
+  padding: 151px 141px;
+  background-repeat: no-repeat;
+}
