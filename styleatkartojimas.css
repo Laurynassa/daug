@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+img {
+  position: absolute;
+}
+.text {
+  background-color: black;
+  color: white;
+  position: absolute;
+  opacity: 0.55;
+  width: 500px;
+  height: 250px;
+  display: inline-block;
+  margin-left: 262px;
+  margin-top: 216px;
+  text-align: center;
+  z-index: 1;
+  overflow: hidden;
+}
+.text p {
+  opacity: 1;
+}

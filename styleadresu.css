@@ -4,15 +4,55 @@
   box-sizing: border-box;
 }
 header {
-  background-color: rgb(131, 131, 131);
   padding: 15px;
 }
 body {
+  background-color: rgb(202, 202, 202);
   padding: 15px;
 }
 .main {
-  background-color: white;
+  background-color: rgb(202, 202, 202);
 }
 label {
-  text-align: left;
+  text-align: right; /* Sutvarkome, kad tekstas būtų sucentruotas dešinėje pusėje */
+  display: inline-block; /* Padarome, kad label'iai būtų vienas šalia kito */
+  width: 100px; /* Nurodome fiksuotą plotį jūsų label'iams */
+}
+.info {
+  width: auto;
+  height: auto;
+  padding: 10px;
+  background-color: white;
+}
+.details {
+  margin-left: 10px;
+}
+.container {
+  position: static;
+  border: solid 1px;
+  color: black;
+  padding: 5px;
+  border-radius: 4px;
+  margin: 3px;
+}
+.save {
+  width: 80px;
+  background-color: rgb(78, 78, 78);
+  color: white;
+  height: 30px;
+  border-radius: 4px;
+  font-size: 10px;
+}
+.x {
+  float: right;
+  margin-top: -23px;
+  border: none;
+  background-color: rgb(202, 202, 202);
+  font-size: smaller;
+}
+p {
+  float: right;
+  margin-top: -19px;
+  color: #5eb8d5;
+  font-size: 14px;
 }
